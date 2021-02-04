@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f9fff0;
+    padding: 10px;
+    border: 2px solid #398b19;
+
+    border-radius: 25px;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto auto auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.row {
+    padding: 10px;
+    margin: 10px;
+}
+
+#description {
+    padding: 40px;
+}
+
+textarea{
+
+
+}
+
+.left {
+    float: left;
+    overflow: hidden;
+    width: 25%;
+}
+
+.right {
+    float: right;
+    width: 75%;
+}
+
+input[type='submit'] {
+    float: right;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(129, 129, 129);
+}
